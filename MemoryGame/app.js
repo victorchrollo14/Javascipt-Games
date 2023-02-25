@@ -1,3 +1,5 @@
+import {reset} from './reset.js'
+
 const cards = [
     {
         name: 'cheeseburger',
@@ -69,6 +71,7 @@ function createCard(){
     }
 }
 
+
 function checkMatch(){
     const cardIdChoosen1 = cardIdChoosen[0];
     const cardIdChoosen2 = cardIdChoosen[1];
@@ -111,13 +114,9 @@ function flipCard(){
     if(cardChoosen.length == 2){
         setTimeout(checkMatch, 500);
     }
-    
-    
+       
 }
 
-const reset = () =>{
-    window.location.reload();
-}
 
 createCard();
 
