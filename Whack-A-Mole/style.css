@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    background: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid {
+    height: 606px;
+    width: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.background-black {
+    background: black;
+    transition: all 0.5 ease;
+}
