@@ -3,7 +3,7 @@ const start = document.querySelector('.start');
 
 let hitPosition;
 let score = 0;
-let timeLeft = 10;
+let timeLeft = 35;
 const EASY = 500;
 let timer;
 let timeLeftTimer;
